@@ -1,8 +1,11 @@
 const user1={
-    name:"Shamali";
-    password:"abcde5";
+    name:"Shamali",
+    password:"abcde5",
     login:function(){
         console.log("log");
+    },
+    logout:()=>{
+        console.log("logout");
     }
 }
 
