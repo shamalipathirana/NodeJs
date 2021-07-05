@@ -22,3 +22,9 @@ a.forEach(x=>console.log(x));
 const squre=(x)=>x*x;
 
 const  squre=x=>x*x;
+
+//..........
+
+const b=a.map(x=>x*2);
+console.log(b);
+
