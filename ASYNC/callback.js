@@ -12,3 +12,18 @@ const getUser = (callback)=>{
 getUser((data)=>{
     console.log(data);
 })
+
+const checkAuth=(abc)=>{
+    setTimeout(()=>{
+        abc({auth:true},undefined);
+    },1000);
+}
+
+checkAuth((d,e)=>{
+    if(d){
+        console.log(d);
+    }
+    else{
+        console.log(e);
+    }
+})
