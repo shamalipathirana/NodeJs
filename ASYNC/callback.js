@@ -1,6 +1,7 @@
 //1.auth user
 //2.get user
 
+
 const getUser = (callback)=>{
     setTimeout(()=>{
         callback({name:'shamali'})
@@ -9,5 +10,5 @@ const getUser = (callback)=>{
 }
 
 getUser((data)=>{
-    
+    console.log(data);
 })
